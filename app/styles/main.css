@@ -1,0 +1,163 @@
+body {
+    font-family: "ff-meta-web-pro",sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-fluid {
+    padding: 0;
+}
+/* Header */
+.header {
+    border: 0;
+    height: 125px;
+    margin-bottom: 0;
+}
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Navbar */
+.nav {
+    margin-top: 25px;
+}
+.navbar {
+    background-color: #FFF;
+    font-size: 14px;
+}
+.navbar-nav > li:first-child > a {
+    border-left: 0;
+}
+.navbar-nav > li > a {
+    border-left: 1px solid #5E5C58;
+    color: #5E5C58;
+    padding: 5px 10px;
+}
+.navbar-nav > li > a:hover {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border: 1px #555 solid;
+}
+.navbar-toggle .icon-bar {
+    background-color: #000
+}
+.navbar-brand > img {
+    max-width: 200px;
+}
+
+.navbar-form .input-group span {
+
+}
+.navbar-form .input-group span {
+
+}
+.navbar-form input {
+    border-color: #D4D4D4;
+    border-left: 0;
+    color: #CCC;
+    font-size: 12px;
+    padding: 5px;
+}
+.navbar-form .input-group-addon {
+    background-color: #FFF;
+    border-color: #D4D4D4;
+    border-right: 0;
+    color: #CCC;
+    padding: 4px 6px;
+}
+.navbar-form .glyphicon {
+    font-size: 12px;
+    top: 0;
+}
+
+
+/* Orange stripe */
+.stripe {
+    border-top: 0;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.stripe.orange {
+    background: #FF5717;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #000;
+    height: 286px;
+    padding: inherit 85px;
+    margin-bottom: 0;
+}
+
+/* Show More button */
+.show-more {
+    background-color: #FF5717;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px 60px;
+    text-align: center;
+}
+.show-more:hover {
+    background-color: #3FABB0;
+    color: #FFF;
+}
+
+/* Films  */
+.films {
+    padding-top: 20px;
+    text-align: center;
+}
+.films h4, .films p {
+    padding: 0 30px;
+    text-align: left;
+}
+.films p {
+    font-size: 12px;
+}
+.popular-films {
+    text-align: left;
+}
+.film {
+    border: 1px solid #C8C8C6;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.film .hd-ribbon {
+    background: url('/images/hd-ribbon.png') no-repeat 0 0;
+    color: #FFF;
+    height: 33px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 999999px;
+    top: 5px;
+    width: 59px;
+    z-index: 1;
+}
+.film .meta {
+    color: #969690;
+    font-size: 12px;
+}
+.film .meta h5 {
+    color: #0093B8;
+    font-size: 16px;
+}
+.film .meta .desc {
+    color: #000;
+    margin-top: 10px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipse;
+}
+
+/* Footer */
+.footer {
+    border: 0;
+}

@@ -1,0 +1,30 @@
+{{#each items}}
+<div class=" col-sm-3">
+	<div class="film">
+		{{#if hd}}
+			<div class="hd-ribbon">HD</div>
+		{{/if}}
+		<div class="thumb">
+			<img src="{{thumb_url}}" alt="{{title}}" class="img-responsive">
+		</div>
+		
+		<div class="meta">
+			<h5 class="title">
+				{{title}}
+			</h5>
+			<div class="release">
+				({{release}}) {{duration}}
+			</div>
+			<div class="genre">
+				{{genre}}
+			</div>
+			<div class="director">
+				{{director}}
+			</div>
+			<div class="desc">
+				{{description}}
+			</div>
+		</div>
+	</div>
+</div>
+{{/each}}
